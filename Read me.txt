@@ -1,0 +1,24 @@
+Hi
+
+In this Django i have created the following things-
+  Login 
+  Logout
+  Change Password
+  Reset/Forogt password using link send in mail id
+  
+  User cannot visit some page with out login and after login it will automatically redirected to that page.
+  
+
+Go to this link https://internAssignment.pythonanywhere.com/account/login/ you can check the hosted site
+
+I attached the postgres db in elephant sql but the db connection code was commented in settings.py file because python anywhere not support postgresql in free plan so thats why i have used the db sqlite3
+
+so i advised you to clone this repository in your local machine by running the running the following command - git clone https://github.com/tushar220304/django_authentication.git
+
+then install the requirements file by running - pip install -r requirements.txt
+
+and the last things uncomment the postgress db code from settings.py file and save it.
+
+It will automatically connect to the postgres db
+
+now simply run the server by - python manage.py runserver
