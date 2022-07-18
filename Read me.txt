@@ -3,6 +3,7 @@ Hi
 In this Django i have created the following things-
   Login 
   Logout
+  Edit your profile
   Change Password
   Reset/Forogt password using link send in mail id
   
